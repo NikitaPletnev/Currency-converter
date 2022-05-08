@@ -1,0 +1,13 @@
+.title {
+    margin-bottom: 40px;
+}
+
+.titleBig span {
+    font-size: 32px;
+    color: #a33b76;
+}
+
+.titleSmall span {
+    font-size: 20px;
+    color: #a33b76;
+}

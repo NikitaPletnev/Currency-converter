@@ -1,0 +1,16 @@
+.backButton {
+    position: absolute;
+    left: 5%;
+    top: 25px;
+    border: none;
+    background: no-repeat;
+    color: #a33b76;
+    font-size: 35px;
+}
+
+@media (any-pointer: coarse) {
+    .backButton {
+        right: 8%;
+        left: auto;
+    }
+}

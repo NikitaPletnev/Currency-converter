@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    margin: auto;
+    padding: 35px 8%;
+    background: #FFF;
+    width: calc(100% - 30vw);
+    border-radius: 8px;
+    position: relative;
+    max-width: 645px;
+    box-shadow: 0 10px 40px 2px rgba(0, 0, 0, 0.6);
+}
+

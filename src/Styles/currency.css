@@ -1,0 +1,57 @@
+.firstVal {
+    color: #797979;
+    font-size: 14px;
+}
+
+.secondVal {
+    color: #3c3c3c;
+    font-size: 16px;
+}
+
+.selectorContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+.selectorContainer span {
+    line-height: 60px;
+    font-size: 32px;
+    color: #5a5578;
+}
+
+.selectorContainer select {
+    width: 40%;
+    background: #ebebeb;
+    border: none;
+    padding: 0 15px;
+    font-size: 24px;
+    color: #aeaeae;
+    appearance: none;
+    border-radius: 4px;
+}
+.closeButton {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    background: #cb375b;
+    color: #FFF;
+    font-size: 26px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+@media (any-pointer: coarse) {
+    .closeButton:hover {
+        background: #cb375b;
+    }
+}
+
+
+.closeButton:hover {
+    background: #e01245;
+}

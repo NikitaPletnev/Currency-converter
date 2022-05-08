@@ -1,0 +1,39 @@
+.popup {
+    position: fixed;
+    padding: 10px 25px;
+    border-radius: 8px;
+    right: -120%;
+    margin: 0 20px;
+    max-width: calc(100% - 40px);
+    top: 20px;
+    box-shadow: 0 10px 40px 2px rgba(0, 0, 0, 0.6);
+    animation: show 4s cubic-bezier(0, 1.28, 0.61, 1.14);
+}
+
+@media (any-pointer: coarse) {
+    .popup {
+        min-width: 90%;
+    }
+}
+
+@keyframes show {
+    to {
+        right: -20px;
+    }
+}
+
+.popup p {
+    position: relative;
+    width: 70%;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.popupError {
+    background: #DC143C;
+}
+
+.popupSuccess {
+    background: #228B22	;
+}
+

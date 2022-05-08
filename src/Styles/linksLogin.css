@@ -1,0 +1,15 @@
+.linksContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    color: #727272;
+}
+
+.linksContainer span {
+    cursor: pointer;
+}
+
+.linksContainer span:hover {
+    text-decoration: underline;
+}
+
